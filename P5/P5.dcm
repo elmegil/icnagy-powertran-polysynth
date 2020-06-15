@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP R_POT_US_TAPPED
+D Potentiometer, US symbol
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP SW_Rotary1x3
 D 4 rotary switches with 3 positions
 K rotary switch

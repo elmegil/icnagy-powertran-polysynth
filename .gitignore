@@ -41,4 +41,7 @@ bom/
 # Gerber export output
 out/
 
+# Action plugin logs
+*.log
+
 # End of https://www.gitignore.io/api/kicad
