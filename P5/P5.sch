@@ -1247,7 +1247,7 @@ F 1 "10K" H 14750 4850 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 14850 4900 50  0001 C CNN
 F 3 "~" H 14850 4900 50  0001 C CNN
 	1    14850 4900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	14850 4550 14850 4750
@@ -1871,7 +1871,7 @@ F 1 "SW_Rotary1x3" H 10900 1300 50  0000 C CNN
 F 2 "P5:SR2612F-0304-18R0B-D8-N" H 10750 1350 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 10750 1350 50  0001 C CNN
 	1    10850 1050
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_SPDT SW2
