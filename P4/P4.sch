@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:LM723_DIP14 U1
-U 1 1 5EEB4956
-P 18450 2200
-F 0 "U1" H 18350 2250 50  0000 C CNN
-F 1 "LM723_DIP14" H 18350 2100 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 18475 1850 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 18350 2100 50  0001 C CNN
-	1    18450 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Amplifier_Operational:LM741 U2
 U 1 1 5EEB4E2D
 P 18900 3550
@@ -2385,7 +2374,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 1600 6700 1600
 Connection ~ 6700 1600
-Text Label 6000 1500 2    50   ~ 0
+Text Label 6000 7500 2    50   ~ 0
 P1
 Wire Wire Line
 	6000 1500 6100 1500
@@ -2477,7 +2466,7 @@ Wire Wire Line
 	7200 750  7200 800 
 Wire Wire Line
 	4250 1550 4250 1450
-Text Label 8400 1050 0    50   ~ 0
+Text Label 8400 7050 0    50   ~ 0
 VOICE1_PORTAMENTO
 Wire Wire Line
 	8400 1050 8400 1250
@@ -2575,7 +2564,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3600 6700 3600
 Connection ~ 6700 3600
-Text Label 6000 3500 2    50   ~ 0
+Text Label 6000 5500 2    50   ~ 0
 P2
 Wire Wire Line
 	6000 3500 6100 3500
@@ -2664,7 +2653,7 @@ Wire Wire Line
 	7550 2750 7200 2750
 Wire Wire Line
 	7200 2750 7200 2800
-Text Label 8400 3050 0    50   ~ 0
+Text Label 8400 5050 0    50   ~ 0
 VOICE2_PORTAMENTO
 Wire Wire Line
 	8400 3050 8400 3250
@@ -2737,7 +2726,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 5600 6700 5600
 Connection ~ 6700 5600
-Text Label 6000 5500 2    50   ~ 0
+Text Label 6000 3500 2    50   ~ 0
 P3
 Wire Wire Line
 	6000 5500 6100 5500
@@ -2826,7 +2815,7 @@ Wire Wire Line
 	7550 4750 7200 4750
 Wire Wire Line
 	7200 4750 7200 4800
-Text Label 8400 5050 0    50   ~ 0
+Text Label 8400 3050 0    50   ~ 0
 VOICE3_PORTAMENTO
 Wire Wire Line
 	8400 5050 8400 5250
@@ -2898,7 +2887,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 7600 6700 7600
 Connection ~ 6700 7600
-Text Label 6000 7500 2    50   ~ 0
+Text Label 6000 1500 2    50   ~ 0
 P4
 Wire Wire Line
 	6000 7500 6100 7500
@@ -2987,7 +2976,7 @@ Wire Wire Line
 	7550 6750 7200 6750
 Wire Wire Line
 	7200 6750 7200 6800
-Text Label 8400 7050 0    50   ~ 0
+Text Label 8400 1050 0    50   ~ 0
 VOICE4_PORTAMENTO
 Wire Wire Line
 	8400 7050 8400 7250
@@ -3257,7 +3246,7 @@ Text Label 13450 7700 0    50   ~ 0
 NoConn ~ 13450 7800
 Text Label 13450 7900 0    50   ~ 0
 3_VOICE_1_PITCH
-Text Label 9100 1700 0    50   ~ 0
+Text Label 9100 7700 0    50   ~ 0
 3_VOICE_1_PITCH
 Text Label 13450 8000 0    50   ~ 0
 4_VOICE1_VCO1_TUNE
@@ -3930,11 +3919,11 @@ Wire Wire Line
 	11300 13400 11450 13400
 Wire Wire Line
 	11300 13500 11450 13500
-Text Label 9100 3700 0    50   ~ 0
-3_VOICE_2_PITCH
 Text Label 9100 5700 0    50   ~ 0
+3_VOICE_2_PITCH
+Text Label 9100 3700 0    50   ~ 0
 3_VOICE_3_PITCH
-Text Label 9100 7700 0    50   ~ 0
+Text Label 9100 1700 0    50   ~ 0
 3_VOICE_4_PITCH
 Text Label 11300 13800 2    50   ~ 0
 19_VOICE1_VCO1
@@ -4100,9 +4089,9 @@ Text Label 11300 14900 2    50   ~ 0
 J6_3_G2
 Text Label 11150 3600 2    50   ~ 0
 J6_1_G4
-Text Label 11150 2400 2    50   ~ 0
-J6_2_G3
 Text Label 11150 3000 2    50   ~ 0
+J6_2_G3
+Text Label 11150 2400 2    50   ~ 0
 J6_3_G2
 Text Label 11150 1750 2    50   ~ 0
 J6_4_G1
@@ -4528,4 +4517,15 @@ Text Label 19450 11400 0    50   ~ 0
 35_VOICE4_OUT
 NoConn ~ 19450 12100
 NoConn ~ 19450 11600
+$Comp
+L Regulator_Linear:LM723_DIP14 U1
+U 1 1 625ABC7E
+P 18450 2200
+F 0 "U1" H 18400 2200 50  0000 C CNN
+F 1 "LM723_DIP14" H 18350 2050 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 18475 1850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 18350 2100 50  0001 C CNN
+	1    18450 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
