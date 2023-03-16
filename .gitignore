@@ -45,3 +45,4 @@ out/
 *.log
 
 # End of https://www.gitignore.io/api/kicad
+*/gimp/
